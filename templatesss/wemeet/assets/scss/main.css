@@ -1,0 +1,241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-family: Arial;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#home .container .home .heroBanner .heroBtn .homeBtn, #home .container .home header .headerBtn .buyTicket {
+  padding: 15px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: all 1s;
+}
+#home .container .home .heroBanner .heroBtn .homeBtn:hover, #home .container .home header .headerBtn .buyTicket:hover {
+  background-color: white;
+  color: black;
+}
+
+#home {
+  background-image: url("https://preview.colorlib.com/theme/wemeet/img/banner/banner_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#home .container {
+  padding: 0 80px;
+  height: 100%;
+}
+#home .container .home {
+  height: 100%;
+}
+#home .container .home header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+#home .container .home header .logo img {
+  width: 170px;
+}
+#home .container .home header .homeNav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#home .container .home header .homeNav ul li select {
+  background-color: transparent;
+  border-color: transparent;
+  outline: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 600;
+  width: 60px;
+  transition: all 1s;
+}
+#home .container .home header .homeNav ul li select:hover {
+  color: #0181f5;
+}
+#home .container .home header .homeNav ul li select .options {
+  color: black;
+}
+#home .container .home header .homeNav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: 600;
+  transition: all 1s;
+}
+#home .container .home header .homeNav ul li a:hover {
+  color: #0181f5;
+}
+#home .container .home header .homeNav ul li .liHome {
+  color: #0181f5;
+}
+#home .container .home .heroBanner {
+  margin-top: 80px;
+  padding: 100px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#home .container .home .heroBanner .heroInfo {
+  font-size: 65px;
+  color: white;
+  font-weight: 800;
+  width: 60%;
+  font-family: Arial;
+}
+#home .container .home .heroBanner .event {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#home .container .home .heroBanner .event .evnt {
+  display: flex;
+  gap: 12px;
+}
+#home .container .home .heroBanner .event .evnt p {
+  color: white;
+}
+#home .container .home .heroBanner .event .evnt .clockEvnt p:first-child {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
